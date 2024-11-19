@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<character>
+  <info>
+    <name>Sybil Rites</name>
+    <party>None</party>
+    <bio>The Civil Liberties Union for Equality is a group concerned with the formalities of redistricting. They seek to ensure that districts are contiguous and adhere to the lawful rules of the redistricting process.</bio>
+    <district>0</district>
+    <ethnicity>caucasian</ethnicity>
+    <moods>
+      <mood>
+        <name>angry</name>
+        <weight>-5</weight>
+      </mood>
+      <mood>
+        <name>unhappy</name>
+        <weight>-2</weight>
+      </mood>
+      <mood>
+        <name>neutral</name>
+        <weight>0</weight>
+        <comment>Civil Liberties Union for Equality</comment>
+      </mood>
+      <mood>
+        <name>happy</name>
+        <weight>3</weight>
+        <comment>CLUE</comment>
+      </mood>
+    </moods>
+  </info>
+  <issues>
+    <issue>
+      <id>26</id>
+      <name>Type 1 Squawker</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>CLUE has no objections to that plan. Your districts are contiguous and obey the rules of redistricting.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>The courts may not agree, but CLUE doesn't think those districts are contiguous enough. We're going to sue.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Have you no shame?! Your districts aren't contiguous! There's not a judge in the country that would let it stand!  We'll see you in court!
+</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+  </issues>
+</character>
