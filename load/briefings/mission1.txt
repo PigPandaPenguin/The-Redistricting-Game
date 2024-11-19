@@ -1,0 +1,5 @@
+missionBriefing=<b>Mission 1: Population Equality</b><br>
+	One of the key tasks in Congressional redistricting is to establish POPULATION EQUALITY. That is, to make sure that EACH DISTRICT in a state has virtually the SAME NUMBER OF PEOPLE in it.<br>
+In this Mission, you must REDRAW THE DISTRICTS TO:<br>
+	<font size="20"><b>* Create Population Equality (640,000 -<br>	650,000 people per district)</b></font><br>
+<font size="12"><i>(To re-draw the districts, click inside a district and drag across the lines)</i></font>
