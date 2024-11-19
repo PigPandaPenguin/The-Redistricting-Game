@@ -1,0 +1,5 @@
+missionBriefing=<b>Mission 2: Partisan Gerrymander</b><br>
+	The state of Adams has FOUR CONGRESSIONAL SEATS, currently held by TWO DEMOCRATS and TWO REPUBLICANS. Since we control the State Legislature, we have an opportunity to help our party at the national level by GERRYMANDERING A NEW [PARTYGROUP] DISTRICT.<br>
+In this Mission, you must REDRAW THE DISTRICTS TO:<br>
+<font size="16"><b>	* Give our party a majority in THREE districts<br>	   instead of our current two.<br>	* Retain pop. equality (640,000 - 650,000 people<br>	   per district)</b></font>
+<br><font size="12"><i>(To re-draw the districts, click inside a district and drag across the lines)</i></font>
