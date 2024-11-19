@@ -1,0 +1,5 @@
+missionBriefing=<b>Mission 3: Bi-Partisan Gerrymander</b><br>
+	The state of Adams has FOUR CONGRESSIONAL SEATS, currently held by TWO DEMOCRATS and TWO REPUBLICANS. Since all four seats are held by narrow margins, both parties have decided to work together to BE SURE THAT THEY RETAIN THEIR SEATS in the next election.
+<br>In this Mission, you must REDRAW THE DISTRICTS TO:<br>
+<font size="16"><b>	* Give each incumbent a 55[percent] MAJORITY in<br>	   their district.<br>	* Retain pop. equality (640,000 - 650,000 people<br>	   per district)</b></font>
+<br><font size="12"><i>(To re-draw the districts, click inside a district and drag across the lines)</i></font>
