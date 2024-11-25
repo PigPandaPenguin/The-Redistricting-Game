@@ -1,0 +1,4 @@
+missionBriefing=<b>Mission 5: Reform Measures</b><br>
+	<font size="12">The current redistricting system is vulnerable to abuse. But there are plans on the table to help reform it. One such plan is the TANNER REFORM BILL, which dictates that:</font><font size="11"><br>	- Plans are drawn up and voted on by an INDEPENDENT COMMISSION that<br>	  represents both parties.<br>	- The Commission CANNOT CONSIDER party demographics.<br>	- If the State Legislature DOES NOT approve the Commission's plan by a set<br>	  deadline, the COURTS MUST APPROVE A PLAN.</font>
+<br><font size="12">In this Mission, you must REDRAW THE DISTRICTS under the Tanner Reform Bill rules TO:</font><br><font size="18"><b>	* Establish pop. equality (640,000 - 650,000<br>	  people per district)</b></font>
+<br><font size="12"><i>(To re-draw the districts, click inside a district and drag across the lines)</i></font>
