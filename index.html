@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SWF Game with Ruffle</title>
     <script src="ruffle.js"></script> <!-- Path to the Ruffle JavaScript -->
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default body margin */
+            background-color: #f0f0f0; /* Optional: set a background color */
+        }
+
+        #game-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 800px;
+            height: 600px;
+            background: #fff; /* Optional: add a background to the game container */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a subtle shadow */
+            border: 1px solid #ccc; /* Optional: add a border */
+        }
+    </style>
 </head>
 <body>
-    <h1></h1>
-    <div>
+    <div id="game-container">
         <object data="RedistrictingGame.swf" type="application/x-shockwave-flash" width="800" height="600">
             <param name="movie" value="RedistrictingGame.swf">
         </object>
