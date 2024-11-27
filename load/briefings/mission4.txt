@@ -1,0 +1,5 @@
+missionBriefing=<b>Mission 4: Voting Rights Act</b><br>
+	<font size="11">The VOTING RIGHTS ACT is a civil rights law designed to ensure fair minority representation in Congress. The state of Hamilton has a large [Ethnicity] population, but NO [ETHNIC GROUP] CONGRESSPEOPLE. Since Hamilton GAINED A NEW DISTRICT in the last census, we can now ADD A PREDOMINANTLY [ETHNIC GROUP2] DISTRICT in compliance with this law.</font>
+<br>In this Mission, you must REDRAW THE DISTRICTS TO:<br>
+<font size="18"><b>	* Create a NEW DISTRICT with a 65[percent]<br>	   [ETHNIC GROUP3] MAJORITY.<br>	* Establish pop. equality (640,000 -<br>	   650,000 people per district)</b></font>
+<br><font size="12"><i>(To re-draw the districts, click inside a district and drag across the lines)</i></font>

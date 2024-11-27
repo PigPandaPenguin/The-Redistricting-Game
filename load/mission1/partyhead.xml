@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<character>
+  <info>
+    <name>Party Head</name>
+    <party>None</party>
+    <bio/>
+    <district>0</district>
+    <ethnicity>caucasian</ethnicity>
+    <moods>
+      <mood>
+        <name>angry</name>
+        <weight>-5</weight>
+      </mood>
+      <mood>
+        <name>unhappy</name>
+        <weight>-2</weight>
+      </mood>
+      <mood>
+        <name>neutral</name>
+        <weight>0</weight>
+      </mood>
+      <mood>
+        <name>happy</name>
+        <weight>3</weight>
+      </mood>
+    </moods>
+  </info>
+  <issues>
+    <issue>
+      <id>24</id>
+      <name>Party Head</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>It seems [Rep] doesn't like your plan very much, but it is in the best interests of the party. I'll let the State Legislators vote their conscience on it.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Unfortunately, [Rep] doesn't like that plan very much, and [Rep pronoun] can tie up enough votes in the State Legislature to block it. You'll have to appease [Rep possesive] before the plan can be passed.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Sorry, but [Rep] isn't happy with that plan. [Rep pronoun] is going to have to run in too tight a race.  You'll have to appease [Rep possesive] before I'll let the [Party] in the State Legislature vote for that plan.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Sorry, but too many incumbents are unhappy with that plan.  You'll have to appease them before I'll let any [Party]s in the State Legislature vote for it.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>30</id>
+      <name>Mission 1 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! You've crafted a plan that establishes population equality. The party is behind you 100%.  I'll see to it that all the [Party]s in the State Legislature vote "Yea".
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You haven't attained population equality yet. I won't even let this come to a vote in the State Legislature until you do.  Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You haven't attained population equality yet. I won't even let this come to a vote in the State Legislature until you do.  Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>31</id>
+      <name>Mission 2 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! This plan should guarantee us a new seat in Congress in the next election. The party is behind you 100%.  I'll see to it that all the [Party]s in the State Legislature vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You've crafted a new [Party group] district, but you still need population equality before your plan can come to a vote in the State Legislature.  Go back to the map and keep trying.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You haven't crafted a new [Party group] district yet. I won't even let this come to a vote in the State Legislature until you do.  Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>32</id>
+      <name>Mission 3 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! This plan should guarantee out incumbents retain their seats in the next election. The party is behind you 100%.  I'll see to it that all the [Party]s in the State Legislature vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You've made all the incumbents safe in their districts, but you still need population equality before your plan can come to a vote in the State Legislature.  Go back to the map and keep trying.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You haven't made all the incumbents safe in their districts yet. I won't even let this come to a vote in the State Legislature until you do.  Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>34</id>
+      <name>Angry Approval Dialogue</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Are you crazy?! You've cut [Rep]'s home out of [Rep objective] district!  I won't let a single [Party] in the State Legislature vote for that plan unless you go back and fix it!</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>What are you doing?! [Rep] won't be able to get re-elected under that plan! I won't let a single [Party] in the State Legislature vote for that plan unless you go back and fix it!</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>What?! That plan will cost the party multiple districts!  I won't let a single [Party] in the State Legislature vote for that plan until you go back and fix it!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>37</id>
+      <name>Mission 4 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! This plan creates a district that complies with the Voting Rights Act. The party is behind you 100%.  I'll see to it that all the [Party]s in the State Legislature vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You've created a 65 percent [Ethnicity] district, but you still need population equality before your plan can come to a vote in the State Legislature.  Go back to the map and keep trying.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You haven't created a 65 percent [Ethnicity] district. I won't even let this come to a vote in the State Legislature until you do.  Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>33</id>
+      <name>Approval Dialogue</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! This plan is obviously fair and bipartisan.  The party is behind you 100%. I'll see to it that all the [Party]s in the State Legislature vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I suppose the plan could be worse for us, but your hands are obviously tied by the [OppParty]s. I'll let the [Party]s in the State Legislature vote their consciences.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Are you out of your mind? This plan will cost us what little we've got in this state. I won't let a single [Party] in the State Legislature vote for it!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>38</id>
+      <name>Mission 5 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! The party is behind you 100%.  I'll see to it that all the [Party]s in the State Legislature vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I trust the [OppParty]s who control the State Legislature will set aside partisanship to allow you to craft a plan that's fair for everyone. The people of [State] deserve no less.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I trust the [OppParty]s who control the State Legislature will set aside partisanship to allow you to craft a plan that's fair for everyone. The people of [State] deserve no less.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>35</id>
+      <name>Unhappy Approval Dialogue</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>It seems [Rep] doesn't like your plan very much, but it is in the best interests of the party. I'll let the State Legislators vote their conscience on it.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Unfortunately, [Rep] doesn't like that plan very much, and [Rep pronoun] can tie up enough votes in the State Legislature to block it. You'll have to appease [Rep possesive] before the plan can be passed.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Sorry, but [Rep] isn't happy with that plan. [Rep pronoun] is going to have to run in too tight a race.  You'll have to appease [Rep possesive] before I'll let the [Party] in the State Legislature vote for that plan.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Sorry, but too many incumbents are unhappy with that plan.  You'll have to appease them before I'll let any [Party]s in the State Legislature vote for it.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+  </issues>
+</character>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<character>
+  <info>
+    <name>Vicki Populi</name>
+    <party>Independant</party>
+    <bio>Voice of the People.</bio>
+    <district>0</district>
+    <ethnicity>caucasian</ethnicity>
+    <moods>
+      <mood>
+        <name>angry</name>
+        <weight>-5</weight>
+      </mood>
+      <mood>
+        <name>unhappy</name>
+        <weight>-2</weight>
+      </mood>
+      <mood>
+        <name>neutral</name>
+        <weight>0</weight>
+      </mood>
+      <mood>
+        <name>happy</name>
+        <weight>3</weight>
+      </mood>
+    </moods>
+  </info>
+  <issues>
+    <issue>
+      <id>30</id>
+      <name>Mission 1 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You can't submit this plan until you attain the mission goals...but don't think the people aren't watching.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Sure, you can play fair when everybody's voting for you! But if this state had more [OppParty]s, you'd be playing more dirty tricks!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>31</id>
+      <name>Mission 2 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You can't submit this plan until you attain the mission goals...but don't think the people aren't watching.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Have you no shame?! You're gerrymandering your party a new seat in Congress! That's not democracy!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>32</id>
+      <name>Mission 3 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You can't submit this plan until you attain the mission goals...but don't think the people aren't watching.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Dont you see what you're doing?! By making the districts safe for incumbents, you're making it almost impossible for the people to vote them out!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>37</id>
+      <name>Mission 4 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You can't submit this plan until you attain the mission goals...but don't think the people aren't watching.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>If the Courts can pay attention to the Voting Rights Act, why can't they pay attention to fairness?!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>38</id>
+      <name>Mission 5 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Finally! A bi-partisan plan that protects the interests of the people! I vote "Yea"! Two thumbs up!</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You haven't attained population equality yet. The Commission can't even vote on this plan until you do. Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I voted "Yea", but it looks like I'm outvoted. Neither party seems to like that plan.You'll have to go back to the map and appease them.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You haven't attained population equality yet. The Commission can't even vote on this plan until you do. Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>19</id>
+      <name>Compactness</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I vote "Nay". Those districts aren't compact enough. Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Drat! I voted "Nay" because those districts aren't compact enough, but the parties have outvoted me! Some things never change!</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I vote "Nay". District [District X] isn't compact enough. Go back to the map and try again.</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Drat! I voted "Nay" because District [District X] isn't compact enough, but the parties have outvoted me! Some things never change!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+  </issues>
+</character>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<character>
+  <info>
+    <name>Commission</name>
+    <party>Independant</party>
+    <bio/>
+    <district>0</district>
+    <ethnicity>caucasian</ethnicity>
+    <moods>
+      <mood>
+        <name>angry</name>
+        <weight>-5</weight>
+      </mood>
+      <mood>
+        <name>unhappy</name>
+        <weight>-2</weight>
+      </mood>
+      <mood>
+        <name>neutral</name>
+        <weight>0</weight>
+      </mood>
+      <mood>
+        <name>happy</name>
+        <weight>3</weight>
+      </mood>
+    </moods>
+  </info>
+  <issues>
+    <issue>
+      <id>33</id>
+      <name>Approval Dialogue</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! This plan is obviously fair and bipartisan. The [Party] Party can support it.  I vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I suppose that plan could be worse for us, but your hands are obviously tied by the [OppParty]s. I suppose I'll vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>You call this reform? This plan will cost the [Party]s what little we've got in this state! I vote "Nay"!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>34</id>
+      <name>Angry Approval Dialogue</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Are you crazy?! You've cut [Rep]'s home out of [Rep possesive] district!  I vote "Nay" unless you go back and fix it!</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>What are you doing?! [Rep] won't be able to get re-elected under that plan! I vote "Nay" unless you go back and fix it!</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>What?! That plan will cost us multiple districts!  I vote "Nay" until you go back and fix it!</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>35</id>
+      <name>Unhappy Approval Dialogue</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>It seems [Rep] doesn't like your plan very much, but it is in the best interests of the party. I'll vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Unfortunately, [Rep] doesn't like that plan very much, and [Rep pronoun] is too important not to appease. If you don't craft a plan to [Rep possesive] liking, I'll have to vote "Nay".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Sorry, but [Rep] isn't happy with that plan. [Rep pronoun] is going to have to run in too tight a race.  If you don't appease [Rep possesive], I'll have to vote "Nay".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Sorry, but too many incumbents are unhappy with that plan.  If you don't appease them, I'll have to vote "Nay".</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+    <issue>
+      <id>38</id>
+      <name>Mission 5 Goals</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Well done! This plan is obviously fair and bipartisan. The [Party group] Party can support it.  I vote "Yea".</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments/>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>The [OppParty]s have already stolen a district by unfair gerrymandering! If you want real reform, you'll have to give us a new seat!</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>I'm more than willing to try to play fair... assuming the [OppParty]s will do the same.</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+  </issues>
+</character>

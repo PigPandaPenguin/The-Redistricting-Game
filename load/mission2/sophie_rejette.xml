@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<character>
+  <info>
+    <name>Sophie Rejette</name>
+    <party>None</party>
+    <bio>The Worldwide Organization of Women focuses on apparent fairness in redistricting.  They inspect the plans for compactness, to make sure that the districts LOOK reasonable.</bio>
+    <district>0</district>
+    <ethnicity>caucasian</ethnicity>
+    <moods>
+      <mood>
+        <name>angry</name>
+        <weight>-5</weight>
+      </mood>
+      <mood>
+        <name>unhappy</name>
+        <weight>-2</weight>
+      </mood>
+      <mood>
+        <name>neutral</name>
+        <weight>0</weight>
+        <comment>Worldwide Organization of Women</comment>
+      </mood>
+      <mood>
+        <name>happy</name>
+        <weight>3</weight>
+        <comment>WOW</comment>
+      </mood>
+    </moods>
+  </info>
+  <issues>
+    <issue>
+      <id>26</id>
+      <name>Type 1 Squawker</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Your districts all look fairly compact.  WOW doesn't see any need to bring your plan to court.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Those districts aren't very compact.  We don't know if we'll win, but WOW is taking that plan to court.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>That plan is an outrage to WOW!  Your districts violate compactness left and right! We're going to sue, and I bet we'll win!
+</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+  </issues>
+</character>

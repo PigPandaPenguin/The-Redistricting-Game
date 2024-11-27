@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<character>
+  <info>
+    <name>Rachel Pride</name>
+    <party>None</party>
+    <bio>The Society for the Advancement of Minority Ethnicities fights for on behalf of all minority groups for fair and equal representation in Congress. They make sure that the Voters Rights Act is upheld.</bio>
+    <district>0</district>
+    <ethnicity>africanAmerican</ethnicity>
+    <moods>
+      <mood>
+        <name>angry</name>
+        <weight>-5</weight>
+      </mood>
+      <mood>
+        <name>unhappy</name>
+        <weight>-2</weight>
+      </mood>
+      <mood>
+        <name>neutral</name>
+        <weight>0</weight>
+        <comment>Society for the Advancement of Minority Ethnicities</comment>
+      </mood>
+      <mood>
+        <name>happy</name>
+        <weight>3</weight>
+        <comment>SAME</comment>
+      </mood>
+    </moods>
+  </info>
+  <issues>
+    <issue>
+      <id>26</id>
+      <name>Type 1 Squawker</name>
+      <weight>1</weight>
+      <thresholds>
+        <threshold>
+          <mood>happy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Your plan fairly represents minority interests. SAME won't stand in the way.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>neutral</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment/>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>unhappy</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>SAME would like to see greater minority representation in that plan and we're willing to go to court to get it.
+</comment>
+          </comments>
+        </threshold>
+        <threshold>
+          <mood>angry</mood>
+          <boolean/>
+          <min/>
+          <max/>
+          <comments>
+            <comment>Your plan flagrantly violates the Voters Rights Act! SAME is taking that plan to court, and we're going to win!
+</comment>
+          </comments>
+        </threshold>
+      </thresholds>
+    </issue>
+  </issues>
+</character>
