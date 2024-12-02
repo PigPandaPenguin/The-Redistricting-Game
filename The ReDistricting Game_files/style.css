@@ -1,0 +1,83 @@
+body	{ padding:0; margin:0; color:#BBBBBB; background:url("/web/20170711105912im_/http://www.redistrictinggame.org/graphics/shell_background.jpg"); }
+img 	{ border:0; }
+
+/* internal links */
+a:link,
+ a:visited,
+ a:active	{ color:#FF0000; text-decoration:none; }
+a:hover		{ color:#FF8888; text-decoration:none; }
+/* external links */
+a:link.external,
+ a:visited.external,
+ a:active.external	{ color:#BBBBBB; text-decoration:underline; }
+a:hover.external	{ color:#FFFFFF; text-decoration:underline; }
+
+/* text related */
+#siteContent	{ font-family:Arial; font-size:12pt; font-style:normal; }
+.pageHeader 	{ font-family:Arial; font-size:18pt; font-style:normal; }
+.boxTitle		{ font-family:Arial; font-size:16pt; font-style:normal; font-weight:bold; }
+.boxText		{ font-family:Arial; font-size:12pt; font-style:normal; }
+/* general text styles */
+.txtBold		{ font-weight:bold; }
+.txtWhite		{ color:#FFFFFF; }
+.txtItalic		{ font-style:italic; }
+.txtUnderline	{ text-decoration:underline; }
+
+/* front page */
+/* smaller quotes on left */
+.txtMiniQuotes	{ font-family:Arial; font-size:10pt; font-weight:normal; line-height: 11pt; }
+.txtMiniQuotesName	{ font-family:Arial; font-size:10pt; font-weight:normal; line-height: 11pt; margin-top: 5px; margin-left:20px; }
+/* large quote at bottom */
+#txtQuote		{ font-family:Arial; font-size:14pt; font-weight:normal; line-height:150%; height:150px; margin:22px 24px 0 32px; color:#454545; }
+#txtQuoteItalics	{ font-style:Italic; text-align:right; margin-right:10px; }
+
+/* Quotes About the Mission x */
+.quoteText	{ text-align:left; color:#FFFFFF; }
+.quoteName	{ text-align:left; font-size:10pt; margin:0 0 14px 10px; }
+.quoteLinks	{ text-align:left; font-size:8pt; }
+
+/* Case Studies for Mission x */
+.caseTitle	{ font-size:14pt; color:#FFFFFF; }
+.caseText	{ margin-top:10px; }
+
+/* FAQ */
+#faqWrapper .imgWrapper { margin-bottom:12px; text-align:center; }
+#faqWrapper .imgWrapper img { border:2px #000000 solid; }
+.faqHeader { padding-bottom:12px; padding-top:10px; color:#FFFFFF; font-size:14pt; font-weight:bold; }
+.faqAnchorIndent { margin-left:20px; }
+.faqQuestion { padding-bottom:8px; }
+.faqAnswer { padding:0 12px 15px 12px; }
+.faqReturnToTop { font-size:9pt; margin:0 15px 10px 0; text-align:right; }
+
+/* temp highlighting */
+.note	{ color: #FFFF00; }
+.req	{ color: #00FFFF; }
+
+/* dropdown menu */
+.menuItem			{ position:absolute; top:0; left:0; z-index:3; margin-top:80px; border:2px #000000 solid; background-color:#222222; color:#999999; font-family:Arial; font-size:10pt; font-weight:bold; display:none; }
+.menuOption			{ background:url("/web/20170711105912im_/http://www.redistrictinggame.org/graphics/shell_nav_dropdown.gif"); height:25px; text-align:left; vertical-align:middle; padding-left:10px; }
+a:link .menuOption,
+a:visited .menuOption, 
+a:active .menuOption	{ color:#999999; }
+a:hover .menuOption	{ color:#00FF00; background:url("/web/20170711105912im_/http://www.redistrictinggame.org/graphics/shell_nav_dropdown_over.gif"); cursor:hand; }
+
+/*
+     FILE ARCHIVED ON 10:59:12 Jul 11, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:42:06 Nov 28, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.531
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 6.232
+  LoadShardBlock: 155.295 (3)
+  PetaboxLoader3.datanode: 107.918 (4)
+  PetaboxLoader3.resolve: 131.332 (2)
+  load_resource: 120.725
+*/
